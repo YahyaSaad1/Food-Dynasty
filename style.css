@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+body{
+    font-family: 'cairo';
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --primary: #FFA629;
+}
+
+section.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 20px 40px;
+}
+
+section.navbar img.logo{
+    width: 150px;
+}
+
+section.navbar div.link{
+    display: flex;
+}
+
+section.navbar div.link a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 16px;
+    font-size: 1.3rem;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    transition: 0.5s;
+    white-space: nowrap;
+}
+
+section.navbar div.link a:hover{
+    color: var(--primary);
+    scale: 1.1;
+}
+
+section.navbar div.link a:focus,
+section.navbar div.link a:active{
+    scale: 0.9;
+}
+
+.head{
+    padding: 20px 40px;
+}
+
+.head h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    word-spacing: 1px;
+    line-height: 1.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+
+.parent{
+    background-color: red;
+    padding: 10px;
+    width: 500px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.parent div{
+    background-color: gold;
+} */
